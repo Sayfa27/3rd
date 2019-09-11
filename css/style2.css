@@ -1,0 +1,370 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+section{
+	width: 100%;
+	float:left;
+}
+
+/*---------------HEADER---------------*/
+header{
+	width: 100%;
+	float: left;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+}
+.logo{
+	float: left;
+
+}
+img {
+    width: 110px;
+    height: 66px;
+}
+
+.menu{
+	float: left;
+
+}
+.menu nav {
+
+}
+.menu ul{
+    color: black;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 9px;
+    margin: 10px 52px;
+    color: black;
+}
+.menu ul li:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+
+}
+
+.social-icon{
+	float: left;
+
+}
+.social-icon ul {
+    margin: 20px 25px;
+}
+.social-icon ul li:hover{
+    background-color: blue;
+}
+.social-icon li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 0px 25px;
+}
+.fa.fa-facebook{
+
+}
+
+.fa.fa-twitter{
+
+}
+.fa.fa-linkedin{
+
+}
+
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+a: hover{
+    color: #9c27b0;
+}
+
+
+/*------------SECTION 1----------------*/
+.banner{
+    background-image: url(../img/front.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+.banner-main {
+    padding: 130px;
+    width: 500px;
+    height: 210px;
+}
+.banner-main h4 {
+    text-align: center;
+    font-size: 60px;
+    color: yellowgreen;
+}
+.banner-main p {
+    text-align: center;
+    font-size: 25px;
+}
+.btn {
+    width: 220px;
+    margin: 14px;
+    padding: 4px;
+    font-size: 25px;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 6px;
+}
+.btn:hover{
+	background-color: transparent;
+}
+/*----------------------section 2----------*/
+.A {
+    width: 20%;
+    float: left;
+    margin: 28px;
+}
+.fa.fa-check {
+    background-color: #2aa0abd9;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fa.fa-map-marker{
+	    background-color: #2aa0abd9;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fa.fa-money{
+	    background-color: #2aa0abd9;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.fa.fa-user-plus{
+	    background-color: #2aa0abd9;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-2 h2{
+	text-align: center;
+
+
+}
+.section-2 p{
+	text-align: center;
+	
+}
+.btn2 {
+    margin: 17px auto;
+    display: block;
+    padding: 15px 35px;
+    border: navajowhite;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.btn2:hover{
+	background-color: black;
+}
+/*---------------------section 3---------*/
+.section-3{
+	width: 100%;
+	float: left;
+}
+.three {
+    width: 30%;
+    float: left;
+    background-color: #0000ff9c;
+    margin: 50px 56px;
+    padding: 55px;
+}
+.three h1 {
+    padding-bottom: 10px;
+    color: white;
+    font-size: 30px;
+}
+.three ul{
+	
+}
+.three li {
+    list-style: circle;
+    font-size: 21px;
+    color: white;
+}
+.btn3 {
+    display: block;
+    margin: 19px auto;
+    padding: 8px 15px;
+    background-color: yellowgreen;
+    border: none;
+    transition: 0.1s ease;
+}
+.btn3:hover{
+	box-shadow: 2px 3px 2px yellow;
+}
+/*------------Section 4--------------*/
+.section-4{
+	width: 100%;
+	float: left;
+}
+.cover{
+
+}
+.cover h1{
+	text-align: center;
+
+}
+.cover span {
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+}
+/*------------------Section-5-------*/
+
+.section-5{
+	width: 100%;
+	float: left;
+
+}
+.five {
+    float: left;
+    width: 30%;
+    margin: 50px 56px;
+    padding: 55px;
+    background-color: aliceblue;
+}
+.five h3{
+	
+}
+.five p{
+	
+}
+/*-------------------------------------SEction 6-----------------*/
+.section-6{
+	width: 100%;
+	background-color: pink;
+    float: left;
+}
+.seven{
+	float: left;
+	width: 30%;
+	display: block;
+	padding: 0px 400px;
+
+}
+.seven h2{
+	text-align: center;
+
+}
+/*------------------Section 7--------*/
+.section-7{
+	width: 100%;
+	float: left;
+	background-color: grey;
+
+}
+.eight{
+	width: 100%;
+	float: left;
+
+}
+.eight img {
+    display: block;
+    margin: 0 auto;
+    height: 59px;
+}
+
+.eight h2 {
+    text-align: center;
+    color: green;
+}
+/*-------------------SEction 8-----------*/
+.section-8{
+	width: 100%;
+	float: left;
+	background-color: #9e9e9efc;
+}
+.nine{
+	float: left;
+
+}
+.section-8 h4 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.nine-bottom{
+
+}
+.nine-bottom img {
+    margin: 20px;
+    width: 185px;
+    height: 136px;
+}
+
+.nine1{
+	float: left;
+
+}
+/*--------------msg-------------------*/
+.leave-msg {
+    width: 123px;
+    background-color: #a4a4ef;
+    border-radius: 6px;
+    position: fixed;
+    padding: 3px 25px;
+    right:0px;
+    bottom: 30%;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+.leave-msg:hover{
+    background-color:#5050d2;
+    color: white;
+}
+.fa.fa-envelope-open{
+
+}
+/*-----------Footer---------------*/
+footer {
+    width: 100%;
+    float: left;
+    background-color:#000000c9;
+}
+.ten {
+    float: left;
+    margin: 0 250px;
+}
+.ten p{
+
+}
+.eleven{
+	float: left;
+
+}
+.eleven p{
+	
+}
